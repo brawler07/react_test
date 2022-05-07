@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {Routes,Route,BrowserRouter,Link} from "react-router-dom"
+import Q_1comp from './Q_1comp';
+import Q_2Comp from "./Q_2Comp"
+import Q_3Comp from './Q_3Comp';
+
+// import{Routes,Route,BrowserRouter,Link} from "react-router-dom"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-header">
+       {/* <Q_1comp></Q_1comp> */}
+       <Q_2Comp></Q_2Comp>
+       {/* <Q_3Comp></Q_3Comp> */}
+       
+               
+       
+      </div> 
     </div>
   );
 }
